@@ -11,7 +11,10 @@ test:
 	tox
 
 build:
-	python3 setup.py sdist bdist_egg
+	python3 setup.py sdist bdist_wheel
 	twine check dist/*
+
+upload:
+	twine upload dist/*
 
 .PHONY: build
