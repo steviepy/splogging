@@ -15,6 +15,6 @@ build:
 	twine check dist/*
 
 upload:
-	twine upload dist/*
+	twine upload --skip-existing dist/*
 
 .PHONY: build
