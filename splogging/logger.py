@@ -2,12 +2,13 @@
 
 import logging.handlers
 import sys
-from typing import Optional
+from os import PathLike
+from typing import Optional, Union
 
 
 def setup_logging(  # pylint: disable=too-many-arguments
     name: Optional[str] = None,
-    filename: str = "./splog.log",
+    filename: Union[str, PathLike] = "./splog.log",
     when: str = "W0",
     backup_count: int = 0,
     file_level: Optional[str] = "DEBUG",

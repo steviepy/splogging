@@ -96,4 +96,6 @@ if __name__ == "__main__":
 <br/>Format of timestamp in the message, displayed in the console.
 
 # References
-[Making PEP 561 compatible packages](https://mypy.readthedocs.io/en/latest/installed_packages.html#making-pep-561-compatible-packages)
+- [Making PEP 561 compatible packages](https://mypy.readthedocs.io/en/latest/installed_packages.html#making-pep-561-compatible-packages)
+- [How do I type hint a filename in a function?](https://stackoverflow.com/questions/53418046/how-do-i-type-hint-a-filename-in-a-function)
+- [Class os.PathLike](https://docs.python.org/3/library/os.html#os.PathLike)
