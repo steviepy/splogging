@@ -95,3 +95,5 @@ if __name__ == "__main__":
 - **console_log_datefmt**
 <br/>Format of timestamp in the message, displayed in the console.
 
+# References
+[Making PEP 561 compatible packages](https://mypy.readthedocs.io/en/latest/installed_packages.html#making-pep-561-compatible-packages)
